@@ -154,6 +154,17 @@ export interface DepositRequest {
   mobile?: string;
 }
 
+export interface DepositConfig {
+  upi_id: string;
+  qr_code_url: string;
+  instructions: string;
+  customer_account_id?: string;
+  customer_mobile?: string;
+  merchant_name?: string;
+  razorpay_enabled?: boolean;
+  razorpay_key_id?: string;
+}
+
 export interface WithdrawalRequest {
   id: number;
   withdrawal_id: string;
