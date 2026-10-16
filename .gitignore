@@ -1,0 +1,33 @@
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+
+# Databases & local storage
+*.db
+*.sqlite
+*.sqlite3
+vip_platform.db
+uploads/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.eslintcache
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
