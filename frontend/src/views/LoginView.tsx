@@ -176,10 +176,6 @@ export const LoginView: React.FC<LoginViewProps> = ({ onNavigate }) => {
             </button>
           </form>
 
-          {/* Quick Admin Test Hint */}
-          <div className="mt-4 p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-[11px] text-dark-secondary text-center">
-            <span className="font-semibold text-dark">Initial Admin Account:</span> Login with mobile <code className="bg-white px-1.5 py-0.5 rounded border">admin</code> and password <code className="bg-white px-1.5 py-0.5 rounded border">admin639</code> (or <code className="bg-white px-1.5 py-0.5 rounded border">AdminSecure@2026</code>).
-          </div>
 
           {/* Switch to SignUp */}
           <div className="mt-6 text-center pt-5 border-t border-border">
